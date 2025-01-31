@@ -71,7 +71,7 @@ def home_page():
             st.button("Learn More")
     
     with col2:
-        st.image("e:/nivi/image/1.jfif", caption="")
+        st.image("./image/1.jfif", caption="")
 
     st.markdown('</div>', unsafe_allow_html=True)
 
@@ -114,7 +114,7 @@ def about_page():
         """)
     
     with col2:
-        st.image("e:/nivi/image/4.jfif", caption="")
+        st.image("./image/4.jfif", caption="")
 
     # Expertise
     st.subheader("Why Choose Me")
@@ -141,10 +141,10 @@ def services_page():
     st.title("Services")
     
     services = [
-        {"title": "Nutritional Assessment", "description": "A detailed analysis of your current diet and health status", "image": "e:/nivi/image/13.jpg"},
-        {"title": "Custom Meal Plans", "description": "Personalized nutrition plans designed for your lifestyle", "image": "e:/nivi/image/14.jfif"},
-        {"title": "Condition Management", "description": "Specialized plans for diabetes, heart health, PCOS, and more", "image": "e:/nivi/image/15.jfif"},
-        {"title": "Weight Management", "description": "Sustainable strategies for weight loss or gain", "image": "e:/nivi/image/16.jfif"}
+        {"title": "Nutritional Assessment", "description": "A detailed analysis of your current diet and health status", "image": "./image/13.jpg"},
+        {"title": "Custom Meal Plans", "description": "Personalized nutrition plans designed for your lifestyle", "image": "./image/14.jfif"},
+        {"title": "Condition Management", "description": "Specialized plans for diabetes, heart health, PCOS, and more", "image": "./image/15.jfif"},
+        {"title": "Weight Management", "description": "Sustainable strategies for weight loss or gain", "image": "./image/16.jfif"}
     ]
 
     for service in services:
